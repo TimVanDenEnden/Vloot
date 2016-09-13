@@ -1,0 +1,85 @@
+body {
+	background: url('../images/bg.png') repeat-x;
+	margin: 0px;
+	font-family: arial;
+	
+}
+
+div.ContainerTop {
+    background: url(../images/header.jpg) no-repeat;
+    width: 800px;
+    height: 270px;
+    /*border: solid 1px red;*/
+    margin: 0px auto;
+
+}
+
+div.ContainerMidden {
+    width: 760px;
+    height: auto;
+    /*border: solid 1px red;*/
+    margin: 0px auto;
+    background: #fff;
+    padding: 20px; 
+
+}
+
+div.Navigation {
+    /*border: solid 1px green;*/
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 165px;
+}
+
+a.Navigation {
+	color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 14px; 
+}
+
+a.Navigation:hover {
+	color: #a9d5d4;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 14px; 
+}
+
+img.TopLeft {
+	float: left;
+	padding:  0px 20px 20px 0px; 
+}
+
+img.TopRight {
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+img.MiddenRight {
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+img.BottomLeft {
+    float: left;
+    margin: 20px 20px 0px 0px;
+}
+
+img.BottomRight {
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+h2.Title {
+	margin: 0px;
+}
+
+h1.Title {
+    margin: 0px;
+    padding: 10px 20px 0px;
+}
+
+p.Title {
+	margin: 0px;
+	padding: 0px 20px 0px;
+}
